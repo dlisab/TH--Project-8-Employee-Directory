@@ -14,8 +14,11 @@ body {
 	font-family: 'Work Sans', sans-serif;
 	line-height: 1.6;
 	color: #414042;
-	background-color: #f1fcd9;
 	padding-bottom: 1.5em;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 ul {	
@@ -71,6 +74,8 @@ img {
 	max-width: 100%;
     margin: 1em 0em;
 }
+/*grid container*/
+grid-container { }
 /*modal window */
 
 body {

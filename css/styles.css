@@ -33,10 +33,10 @@ p {
 	color: #8b8680;
 }
 h1{
-	
-	
 	letter-spacing: 1px;
-	font-family: 'Arvo', serif;
+	font-family: 'avenir', san-serif;
+	font-size: 1.53em;
+	text-transform: upppercase;
 }
 
 
@@ -69,13 +69,15 @@ a {
 	color:rgb(41, 73, 129)
 }
 img {
-	border-radius: 50%
+	border-radius: 50%;
+	width: 40%;
 }
 /*grid container*/
 card { 
 	width: 80%;
 	display: flex;
 	flex-direction: column;
+	border: 
 }
 /*modal window */
 

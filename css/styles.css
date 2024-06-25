@@ -67,11 +67,13 @@ body {
 }
 
 .name{
-
+    color:	#5f5f5f;
+    font-size: 1em;
 }
 
 .address{
-
+    color:	#5f5f5f;
+    font-size: 1em;
 }
 
 h1{

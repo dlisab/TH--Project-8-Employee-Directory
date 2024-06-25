@@ -44,7 +44,7 @@ body {
 	grid-template-columns: repeat(3, 1fr);
 	grid-template-rows: repeat(4, auto);
 	gap: 12px;
-	line-height: 80%;
+	line-height: 50%;
 	width: 80%;
 	margin: auto;
 }
@@ -75,16 +75,19 @@ body {
 }
 
 h1{
+font-size: 1.5em;
 color:	#3e3e3e;
 }
 
 h2{
-	color:	#3e3e3e;
+    font-size: 1.25em;
+    color:	#3e3e3e;
 }
 
 
 p {
 	color:#3e3e3e;
+    font-size: 1em;
 }
 
 

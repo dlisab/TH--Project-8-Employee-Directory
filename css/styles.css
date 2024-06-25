@@ -71,8 +71,7 @@ a {
 	color:rgb(41, 73, 129)
 }
 img {
-	max-width: 100%;
-    margin: 1em 0em;
+	border-radius: 50%
 }
 /*grid container*/
 grid-container { }

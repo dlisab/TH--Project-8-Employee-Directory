@@ -2,102 +2,13 @@
   Base Element Styles
 ==================================== */
 
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-html {
-	font-size: 1.25em
-}
+
 body {
+	position: relative;
+	margin: auto;
 	font-family: 'Work Sans', sans-serif;
-	line-height: 1.6;
-	color: #414042;
-	padding-bottom: 1.5em;
-	
 }
-
-
-ul {	
-  margin: 0 0 .5em 0;;
-  padding: 0;
-  list-style: none;
-}
-
-
-p {
-	font-size: .75em;
-	margin-bottom: 1.8em;
-	padding: 0 1.5em;
-	color: #8b8680;
-}
-h1{
-	letter-spacing: 1px;
-	font-family: 'avenir', san-serif;
-	font-size: 1.53em;
-	text-transform: upppercase;
-}
-
-
-h1,
-h2,
-h3,
-a {
-	color: #414042;
-}
-h2 {
-	font-size: .75em;
-	margin-top: 1em;
-	font-weight: 600;
-	
-}
-h4 {
-	font-size: .75em;
-	padding-top: 5px;
-	font-weight: 500;
-}
-
-
-h3 {
-	font-size: .75em;
-	margin-top: 1em;
-	font-weight: 600;
-}
-a {
-	text-decoration: none;
-	color:rgb(41, 73, 129)
-}
-img {
-	border-radius: 50%;
-	width: 40%;
-}
-/*grid container*/
-.grid-container {
-	margin: 20px auto;
-	width: 400px;
-	height: 400px;
-	background-color: #fff;
-	display: flex;
-	grid-template-columns: 200px 200px;
-	grid-row: auto auto;
-	grid-column-gap:0px;
-	grid-row-gap: 0px;
-  }	
-
-.container .card { 
-	padding: 20px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border: solid rgba(85, 85, 85, 0.983) 1px;
-}
-
 /*modal window */
-
-body {
-    position: relative;
-}
 
 .overlay {
     position: absolute;
@@ -126,3 +37,55 @@ body {
 .hidden {
     display: none;
 }
+/*grid*/
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(4, auto);
+	gap: 12px;
+	line-height: 80%;
+	width: 80%;
+	margin: auto;
+}
+.card { 
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #dfdfdf;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+
+avatar {
+	border-radius: 50%;
+	padding-right: 5px;
+}
+
+.name{
+
+}
+
+.address{
+
+}
+
+h1{
+color:	#3e3e3e;
+}
+
+h2{
+	color:	#3e3e3e;
+}
+
+
+p {
+	color:#3e3e3e;
+}
+
+
+

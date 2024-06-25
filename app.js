@@ -36,7 +36,8 @@ function displayEmployees(employeeData) {
     </div>
     `
     });
-    gridContainer.innerHTML = employeeHTML; }
+    gridContainer.innerHTML = employeeHTML;
+}
 
     function displayModal(index) {
         // use object destructuring make our template literal cleaner

@@ -73,7 +73,7 @@ img {
 	width: 40%;
 }
 /*grid container*/
-. grid-container {
+.grid-container {
 	margin: 20px auto;
 	width: 400px;
 	height: 400px;
@@ -87,10 +87,10 @@ img {
 
 .container .card { 
 	padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: solid red 1px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: solid rgba(85, 85, 85, 0.983) 1px;
 }
 
 /*modal window */

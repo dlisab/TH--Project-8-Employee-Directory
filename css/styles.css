@@ -61,7 +61,7 @@ body {
 }
 
 
-avatar {
+.avatar {
 	border-radius: 50%;
 	padding-right: 5px;
 }

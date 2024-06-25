@@ -78,7 +78,7 @@ img {
 	width: 400px;
 	height: 400px;
 	background-color: #fff;
-	display: grid;
+	display: flex;
 	grid-template-columns: 200px 200px;
 	grid-row: auto auto;
 	grid-column-gap:0px;

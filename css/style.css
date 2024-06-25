@@ -1,0 +1,83 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 1.25em
+}
+body {
+	font-family: 'Work Sans', sans-serif;
+
+	line-height: 1.6;
+	color: #414042;
+	background-color: #f1fcd9;
+	padding-bottom: 1.5em;
+}
+
+ul {	
+  margin: 0 0 .5em 0;;
+  padding: 0;
+  list-style: none;
+}
+
+
+p {
+	font-size: .75em;
+	margin-bottom: 1.8em;
+	padding: 0 1.5em;
+	text-align: center;
+}
+h1{
+	color:#08a194;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-family: 'Arvo', serif;
+}
+h1 a{
+	color:#107896
+	
+}
+
+h1,
+h2,
+h3,
+a {
+	color: #414042;
+}
+h2 {
+	font-size: .75em;
+	margin-top: 1em;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+h4 {
+	font-size: .75em;
+	padding-top: 5px;
+	font-weight: 500;
+}
+.footer h2 {
+	text-transform: none;
+}
+
+h3 {
+	font-size: .75em;
+	margin-top: 1em;
+	font-weight: 600;
+}
+a {
+	text-decoration: none;
+	color:rgb(41, 73, 129)
+}
+img {
+	max-width: 100%;
+    margin: 1em 0em;
+}
+.banner img {
+	width: 70%;
+	margin: 0 2em;
+}

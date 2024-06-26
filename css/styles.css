@@ -24,7 +24,7 @@ body {
     position: relative;
     text-align: center;
     background: #fff;
-    border: 1 px solid #788;
+    border: 1 px solid rgb(141, 142, 142);
     border-radius: 5px;
     padding: 30px 20px;
 }

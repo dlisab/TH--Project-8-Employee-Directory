@@ -23,12 +23,13 @@ function displayEmployees(employeeData) {
     let name = employee.name;
     let email = employee.email;
     let city = employee.location.city;
+    
     let picture = employee.picture;
 
     // Check if city is an object and extract the name if it is
-    if (typeof city === 'object' && city !== null) {
+    /*if (typeof city === 'object' && city !== null) {
         city = city.name || 'Unknown City';
-    }
+    }*/
     // template literals make this so much cleaner!
     employeeHTML += `
     <div class="card" data-index="${index}">

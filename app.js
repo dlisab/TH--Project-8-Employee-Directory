@@ -36,7 +36,7 @@ function displayEmployees(employeeData) {
     <div class="text-container">
     <h2 class="name">${name.first} ${name.last}</h2>
     <p class="email">${email}</p>
-    <p class="location">${city.state}</p>
+    <p class="location">${location.state}</p>
     </div>
     </div>
     `

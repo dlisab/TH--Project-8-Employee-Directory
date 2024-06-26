@@ -25,11 +25,7 @@ function displayEmployees(employeeData) {
     let location = employee.location;
     let picture = employee.picture;
 
-    // Check if city is an object and extract the name if it is
-    /*if (typeof city === 'object' && city !== null) {
-        city = city.name || 'Unknown City';
-    }*/
-    // template literals make this so much cleaner!
+    
     employeeHTML += `
     <div class="card" data-index="${index}">
     <img class="avatar" src="${picture.large}" />
@@ -54,7 +50,6 @@ function displayEmployees(employeeData) {
         <div class="text-container">
         <h2 class="name">${name.first} ${name.last}</h2>
         <p class="email">${email}</p>
-
         <p class="address">${city}</p>
         <hr />
         <p>${phone}</p>

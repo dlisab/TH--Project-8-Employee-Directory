@@ -33,6 +33,9 @@ body {
     right: 15px;
     top: 5px;
     cursor: pointer;
+    border: none;
+    
+
 }
 .hidden {
     display: none;

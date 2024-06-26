@@ -22,8 +22,7 @@ function displayEmployees(employeeData) {
     employees.forEach((employee, index) => {
     let name = employee.name;
     let email = employee.email;
-    let city = employee.location.city;
-    
+    let location = employee.location;
     let picture = employee.picture;
 
     // Check if city is an object and extract the name if it is
@@ -37,7 +36,7 @@ function displayEmployees(employeeData) {
     <div class="text-container">
     <h2 class="name">${name.first} ${name.last}</h2>
     <p class="email">${email}</p>
-    <p class="address">${city}</p>
+    <p class="location">${.city.state}</p>
     </div>
     </div>
     `

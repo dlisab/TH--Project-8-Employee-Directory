@@ -72,5 +72,5 @@ function displayEmployees(employeeData) {
         });
 
         modalClose.addEventListener('click', () => {
-            overlay.classList.add("hidden");
+            //overlay.classList.add("hidden");
             });

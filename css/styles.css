@@ -25,7 +25,8 @@ body {
     position: relative;
     text-align: center;
     background: #fff;
-    border: 1 px solid rgb(141, 142, 142);
+    border: 1 px;
+    color: solid rgb(141, 142, 142);
     border-radius: 5px;
     padding: 30px 20px;
 }
@@ -77,7 +78,7 @@ body {
 }
 
 .address{
-    color:	#5f5f5f;
+    color:	#5f5f5f; 
     font-size: 1em;
 }
 
